@@ -84,11 +84,14 @@ OPTIONS部分通常应包含指向各种依赖项安装位置的指针，假设�
 
 ```bash
 CC=mpicc FC=mpif90 cmake -DNetCDF_C_PATH=/path/to/netcdf-c \
-           -DNetCDF_Fortran_PATH=/path/to/netcdf-fortran \
+           -DNetCDF_Fortran_PATH=/usr/local/netcdf4-needed \
            -DPnetCDF_PATH=/path/to/pnetcdf \
-           /path/to/pio/source
+          /root/ParallelIO-pio2_3_0
 ```
-
+CC=mpicc FC=mpif90 cmake CMAKE_INSTALL_PREFIX=/usr/local/pio -DPIO_ENABLE_TIMING=OFF -DNetCDF_C_PATH=/usr/local/netcdf4-needed \
+           -DNetCDF_Fortran_PATH=/usr/local/netcdf4-needed \
+           -DPnetCDF_PATH=/usr/local/netcdf4-needed \
+           /root/ParallelIO-pio2_3_0 
 适用于以下依赖项：NetCDF、PnetCDF、HDF5、LIBZ、SZIP。
 
 #### CMake选项
@@ -134,6 +137,8 @@ ctest
 ```bash
 make check
 ```
+mpiexec --host localhost:4 --allow-run-as-root -n 3 /root/ParallelIO-pio2_5_9/tests/cunit/test_async_mpi
+
 
 #### 其他注意事项
 
