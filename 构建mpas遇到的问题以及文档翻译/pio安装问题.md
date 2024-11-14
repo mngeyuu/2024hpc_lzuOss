@@ -85,3 +85,5 @@ Error: ‘x’ argument of ‘c_sizeof’ intrinsic at (1) must be an interopera
 10. 显示mpi的module找不到
 
     CC=mpicc FC=mpif90
+11. ctest全部都不通过
+    使用mpich
