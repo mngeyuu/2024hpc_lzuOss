@@ -58,3 +58,25 @@ mpifort pio2.f90 -I/usr/local/pio/include -I/usr/local/netcdf4-needed/include -I
 -bash: ./atmosphere_model: Permission denied
 
 
+7. 在namelist.atmosphere修改pio设置
+
+```
+----------------------------------------------------------------------
+Beginning MPAS-atmosphere Error Log File for task       0 of       2
+    Opened at 2024/11/26 14:44:49
+----------------------------------------------------------------------
+
+ERROR: Could not open block decomposition file for 2 blocks.
+CRITICAL ERROR: Filename: x1.40962.graph.info.part.2
+Logging complete.  Closing file at 2024/11/26 14:44:49
+```
+
+安装metis 将x1.40962.graph.info分成两部分
+
+命令 `gpmetis -minconn -contig x1.40962.graph.info 2`
+
+8. 
+Ensure that NETCDF, PNETCDF, PIO, and PAPI (if USE_PAPI=true) are environment variables
+that point to the absolute paths for the libraries.
+
+make LDFLAGS="-L/usr/local/netcdf4-needed/lib -lnetcdf -L/usr/local/netcdf4-needed/lib -lpnetcdf -L/usr/local/pio/lib -lpio "

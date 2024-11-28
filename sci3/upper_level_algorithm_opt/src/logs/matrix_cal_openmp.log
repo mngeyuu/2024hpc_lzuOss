@@ -1,0 +1,54 @@
+测试矩阵规模：1000 1000 1000
+每个数据测量 5 次
+数据测量交替执行
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 第 0 次耗时: 1.26296 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 第 0 次耗时: 0.926561 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 第 0 次耗时: 1.08802 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 第 0 次耗时: 1.40837 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 第 0 次耗时: 1.38957 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 第 0 次耗时: 1.32109 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 第 0 次耗时: 1.37083 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 第 0 次耗时: 1.13204 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 第 0 次耗时: 0.942522 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 第 0 次耗时: 1.00544 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 第 1 次耗时: 0.912826 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 第 1 次耗时: 0.897279 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 第 1 次耗时: 0.844306 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 第 1 次耗时: 0.877081 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 第 1 次耗时: 0.878726 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 第 1 次耗时: 0.863694 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 第 1 次耗时: 0.880173 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 第 1 次耗时: 0.864512 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 第 1 次耗时: 0.870841 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 第 1 次耗时: 0.893639 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 第 2 次耗时: 0.864024 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 第 2 次耗时: 0.871753 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 第 2 次耗时: 1.14846 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 第 2 次耗时: 1.11328 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 第 2 次耗时: 0.922179 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 第 2 次耗时: 1.05314 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 第 2 次耗时: 1.05523 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 第 2 次耗时: 1.11534 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 第 2 次耗时: 0.943717 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 第 2 次耗时: 1.13433 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 第 3 次耗时: 1.37319 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 第 3 次耗时: 1.32329 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 第 3 次耗时: 1.3041 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 第 3 次耗时: 1.31871 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 第 3 次耗时: 1.08701 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 第 3 次耗时: 0.855152 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 第 3 次耗时: 0.889447 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 第 3 次耗时: 0.861263 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 第 3 次耗时: 0.862633 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 第 3 次耗时: 0.879628 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 第 4 次耗时: 0.859622 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 第 4 次耗时: 0.90172 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 第 4 次耗时: 0.926556 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 第 4 次耗时: 0.926921 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 第 4 次耗时: 0.94579 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 第 4 次耗时: 0.834426 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 第 4 次耗时: 0.932301 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 第 4 次耗时: 0.85691 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 第 4 次耗时: 0.845201 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 第 4 次耗时: 1.10981 秒
+测量结束

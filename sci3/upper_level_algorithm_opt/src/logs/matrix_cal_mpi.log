@@ -1,0 +1,13 @@
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 20.933 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 20.8005 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 21.1537 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 20.9514 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 21.1908 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 21.3381 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 20.7691 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 21.26 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 20.6482 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 21.2029 秒
+计算完毕
