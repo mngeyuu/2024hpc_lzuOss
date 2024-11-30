@@ -15,3 +15,6 @@
 - sci3编译命令
 - sci3的画图py文件
 - sci3的最终报告
+
+### upper_level_algorithm_opt
+- sci3源码
