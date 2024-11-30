@@ -1,0 +1,9 @@
+----------------------------------------------------------------------
+Beginning MPAS-atmosphere Error Log File for task       1 of       4
+    Opened at 2024/11/30 12:40:24
+----------------------------------------------------------------------
+
+ERROR: PIO io_task_stride * io_task_count has a value of 16.
+ERROR:         It must be between 1 and 4.
+CRITICAL ERROR: Invalid PIO configuration.
+Logging complete.  Closing file at 2024/11/30 12:40:24

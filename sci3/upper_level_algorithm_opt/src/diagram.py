@@ -3,7 +3,7 @@ import re
 import matplotlib.pyplot as plt
 
 # 设置日志目录
-LOG_DIR = 'logs'
+LOG_DIR = r"D:\2024秋学习\github\hpc\sci3\upper_level_algorithm_opt\src\logs"
 
 # 提取日志中的运行时间
 def extract_times(log_file):

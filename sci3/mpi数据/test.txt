@@ -1,0 +1,120 @@
+统计每个数据集，在不同进程并发下的耗时变化
+
+并发进程数：2
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 10.015 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 10.5352 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 9.91423 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 10.0489 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 10.2441 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 10.3013 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 9.901 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 9.83587 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 9.55232 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 10.1653 秒
+计算完毕
+
+并发进程数：4
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 5.24039 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 5.30817 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 4.93848 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 5.05614 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 5.1713 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 5.39317 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 5.38913 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 5.40489 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 5.37113 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 5.18992 秒
+计算完毕
+
+并发进程数：5
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 4.4397 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 4.34169 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 4.33073 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 4.34303 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 4.33961 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 4.31116 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 4.14633 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 4.04303 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 4.16232 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 4.33696 秒
+计算完毕
+
+并发进程数：8
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 2.75844 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 2.69542 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 2.70959 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 2.72106 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 2.70377 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 2.70132 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 2.62569 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 2.66437 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 2.65606 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 2.64535 秒
+计算完毕
+
+并发进程数：10
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 2.28697 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 2.63426 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 2.42766 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 2.16149 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 2.56671 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 2.21115 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 2.6583 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 2.18789 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 2.31069 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 2.17747 秒
+计算完毕
+
+并发进程数：20
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 5.61025 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 5.67646 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 5.98542 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 6.22892 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 5.67754 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 5.69163 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 5.43359 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 6.3567 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 6.09197 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 5.6657 秒
+计算完毕
+
+并发进程数：25
+测试矩阵规模：1000 1000 1000
+每个数据测量 1 次
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.0.bin 验证成功，耗时: 6.51607 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.1.bin 验证成功，耗时: 6.61143 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.2.bin 验证成功，耗时: 6.60942 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.3.bin 验证成功，耗时: 5.87502 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.4.bin 验证成功，耗时: 5.79198 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.5.bin 验证成功，耗时: 5.76511 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.6.bin 验证成功，耗时: 5.78176 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.7.bin 验证成功，耗时: 5.70898 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.8.bin 验证成功，耗时: 5.70152 秒
+/root/upper_level_algorithm_opt/src/./matrix-1000-1000-1000.9.bin 验证成功，耗时: 5.89017 秒
+计算完毕
+
+
+
+
+
+
+
+
+
+
+
+
+
+

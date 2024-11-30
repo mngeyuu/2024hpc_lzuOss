@@ -1,0 +1,325 @@
+----------------------------------------------------------------------
+Beginning MPAS-atmosphere Output Log File for task       0 of       1
+    Opened at 2024/11/30 13:53:11
+----------------------------------------------------------------------
+
+ 
+ Using default single-precision reals
+ 
+ Reading namelist from file namelist.atmosphere
+ *** Encountered an issue while attempting to read namelist record assimilation
+     The following values will be used for variables in this record:
+ 
+         config_jedi_da = F
+ 
+ 
+ ----- Setting up physics suite 'mesoscale_reference' -----
+ 
+     config_microp_scheme       = mp_wsm6
+     config_convection_scheme   = cu_ntiedtke
+     config_pbl_scheme          = bl_ysu
+     config_gwdo_scheme         = bl_ysu_gwdo
+     config_radt_cld_scheme     = cld_fraction
+     config_radt_lw_scheme      = rrtmg_lw
+     config_radt_sw_scheme      = rrtmg_sw
+     config_sfclayer_scheme     = sf_monin_obukhov
+     config_lsm_scheme          = noah
+ 
+ ----- Setting up package variables -----
+ 
+     mp_kessler_in           = F
+     mp_thompson_in          = F
+     mp_wsm6_in              = T
+     cu_grell_freitas_in     = F
+     cu_kain_fritsch_in      = F
+     cu_tiedtke_in           = T
+     bl_mynn_in              = F
+     bl_ysu_in               = T
+ 
+ Reading streams configuration from file streams.atmosphere
+ Found mesh stream with filename template x1.40962.init.nc
+ Using default io_type for mesh stream
+  ** Attempting to bootstrap MPAS framework using stream: input
+ Bootstrapping framework with mesh fields from input file 'x1.40962.init.nc'
+  * Requested field rainprod is deactivated due to packages, or is a scratch variable.
+  * Requested field evapprod is deactivated due to packages, or is a scratch variable.
+  * Requested field nt_c is deactivated due to packages, or is a scratch variable.
+  * Requested field mu_c is deactivated due to packages, or is a scratch variable.
+  * Requested field nca is deactivated due to packages, or is a scratch variable.
+  * Requested field cubot is deactivated due to packages, or is a scratch variable.
+  * Requested field cutop is deactivated due to packages, or is a scratch variable.
+  * Requested field w0avg is deactivated due to packages, or is a scratch variable.
+  * Requested field qcg is deactivated due to packages, or is a scratch variable.
+  * Requested field sh3d is deactivated due to packages, or is a scratch variable.
+  * Requested field qke is deactivated due to packages, or is a scratch variable.
+  * Requested field qke_adv is deactivated due to packages, or is a scratch variable.
+  * Requested field cov is deactivated due to packages, or is a scratch variable.
+  * Requested field qsq is deactivated due to packages, or is a scratch variable.
+  * Requested field tsq is deactivated due to packages, or is a scratch variable.
+  * Requested field tke_pbl is deactivated due to packages, or is a scratch variable.
+  * Requested field el_pbl is deactivated due to packages, or is a scratch variable.
+  * Requested field ch is deactivated due to packages, or is a scratch variable.
+  * Requested field k22_shallow is deactivated due to packages, or is a scratch variable.
+  * Requested field kbcon_shallow is deactivated due to packages, or is a scratch variable.
+  * Requested field ktop_shallow is deactivated due to packages, or is a scratch variable.
+  * Requested field ktop_deep is deactivated due to packages, or is a scratch variable.
+  * Requested field xmb_total is deactivated due to packages, or is a scratch variable.
+  * Requested field xmb_shallow is deactivated due to packages, or is a scratch variable.
+  * Requested field qc_cu is deactivated due to packages, or is a scratch variable.
+  * Requested field qi_cu is deactivated due to packages, or is a scratch variable.
+  * Requested field rqrcuten is deactivated due to packages, or is a scratch variable.
+  * Requested field rqscuten is deactivated due to packages, or is a scratch variable.
+  * Requested field rniblten is deactivated due to packages, or is a scratch variable.
+  * Requested field u_amb is deactivated due to packages, or is a scratch variable.
+  * Requested field rho_amb is deactivated due to packages, or is a scratch variable.
+  * Requested field theta_amb is deactivated due to packages, or is a scratch variable.
+  * Requested field lbc_u is deactivated due to packages, or is a scratch variable.
+  * Requested field lbc_w is deactivated due to packages, or is a scratch variable.
+  * Requested field lbc_rho is deactivated due to packages, or is a scratch variable.
+  * Requested field lbc_theta is deactivated due to packages, or is a scratch variable.
+ 
+Parsing run-time I/O configuration from streams.atmosphere ...
+ 
+ -----  found immutable stream "input" in streams.atmosphere  -----
+         filename template:  x1.40962.init.nc
+         filename interval:  none
+         direction:          input
+         reference time:     initial_time
+         record interval:    -
+         real precision:     4 bytes
+         input alarm:        initial_only
+ 
+ -----  found immutable stream "restart" in streams.atmosphere  -----
+         filename template:  restart.$Y-$M-$D_$h.$m.$s.nc
+         filename interval:  none
+         direction:          input, output
+         reference time:     initial_time
+         record interval:    -
+         input alarm:        initial_only
+         output alarm:       none
+ 
+ -----  found immutable stream "iau" in streams.atmosphere  -----
+         filename template:  AmB.$Y-$M-$D_$h.$m.$s.nc
+         filename interval:  none
+         direction:          input
+         reference time:     initial_time
+         record interval:    -
+         input alarm:        initial_only
+         package:            iau
+
+ 
+ -----  found immutable stream "lbc_in" in streams.atmosphere  -----
+         filename template:  lbc.$Y-$M-$D_$h.$m.$s.nc
+         filename interval:  3:00:00
+         direction:          input
+         reference time:     initial_time
+         record interval:    -
+         input alarm:        3:00:00
+         package:            limited_area
+
+ 
+ -----  found stream "output" in streams.atmosphere  -----
+         filename template:  history.$Y-$M-$D_$h.$m.$s.nc
+         filename interval:  none
+         direction:          output
+         reference time:     initial_time
+         record interval:    -
+         output alarm:       none
+ 
+ -----  found stream "diagnostics" in streams.atmosphere  -----
+         filename template:  diag.$Y-$M-$D_$h.$m.$s.nc
+         filename interval:  none
+         direction:          output
+         reference time:     initial_time
+         record interval:    -
+         output alarm:       none
+ 
+ -----  found stream "surface" in streams.atmosphere  -----
+         filename template:  sfc_update.nc
+         filename interval:  none
+         direction:          input
+         reference time:     initial_time
+         record interval:    -
+         input alarm:        none
+ 
+ ----- done parsing run-time I/O from streams.atmosphere -----
+
+  ** Validating streams
+ 
+ 
+ Reading dimensions from input streams ...
+ 
+ ----- reading dimensions from stream 'input' using file x1.40962.init.nc
+        nVertLevels = 56
+        nCells = 40962
+        nEdges = 122880
+        nVertices = 81920
+        TWO = 2
+        maxEdges = 10
+        maxEdges2 = 20
+        R3 = 3
+        vertexDegree = 3
+        nVertLevelsP1 = 57
+        FIFTEEN = 15
+        nMonths = 12
+        nSoilLevels = 4
+ 
+   *** unable to open input file restart.2010-10-23_00.00.00.nc for stream 'restart'
+ 
+   *** unable to open input file AmB.2010-10-23_00.00.00.nc for stream 'iau'
+ 
+   *** unable to open input file lbc.2010-10-23_00.00.00.nc for stream 'lbc_in'
+ 
+   *** unable to open input file sfc_update.nc for stream 'surface'
+ 
+ ----- done reading dimensions from input streams -----
+ 
+ 
+ Processing decomposed dimensions ...
+ 
+  ----- done processing decomposed dimensions -----
+ 
+ 
+ Assigning remaining dimensions from definitions in Registry.xml ...
+        THREE = 3
+        TWENTYONE = 21
+        nLags = 140 (input_soil_temperature_lag)
+        nOznLevels = 59 (noznlev)
+        nAerLevels = 29 (naerlev)
+        cam_dim1 = 4 (camdim1)
+        nVertLevelsP2 = 58
+        nIsoLevelsT = 5
+        nIsoLevelsZ = 13
+ 
+  ----- done assigning dimensions from Registry.xml -----
+ 
+ 
+WARNING: Variable qi not in input file.
+WARNING: Variable qs not in input file.
+WARNING: Variable qg not in input file.
+ 
+ Checking consistency of limited-area settings...
+  - config_apply_lbcs = F
+  - Maximum value in bdyMaskCell = 0
+  ----- done checking limited-area settings -----
+ 
+      DT_RADTLW   =7200.00
+      DT_RADTSW   =7200.00
+      DT_CU       =720.000
+      DT_PBL      =720.000
+      IMS =1   IME =40962
+      JMS =1   JME =1
+      KMS =1   KME =57
+      IDS =1   IDE =40963
+      JDS =1   JDE =2
+      KDS =1   KDE =57
+      ITS =1   ITE =40962
+      JTS =1   JTE =1
+      KTS =1   KTE =56
+ --- specifics on cloud microphysics option microp_scheme = mp_wsm6
+ --- dt_microp = 720.000
+ --- n_microp  = 1
+ --- has_reqc  = 0
+ --- has_reqi  = 0
+ --- has_reqs  = 0
+     skipping over lutype = OLD
+     skipping over lutype = USGS
+     landuse type = MODIFIED_IGBP_MODIS_NOAH found          33  categories           2  seasons
+ 
+ --- initialize NOAH LSM tables
+     skipping over lutype = USGS
+     landuse type = MODIFIED_IGBP_MODIS_NOAH found          20  categories
+     end read VEGPARM.TBL
+     input soil texture classification = STAS
+     soil texture classification = STAS found          19  categories
+     end read SOILPARM.TBL
+     end read GENPARM.TBL
+ --- end initialize NOAH LSM tables
+ 
+ min/max of meshScalingDel2 = 1.00000 1.00000
+ min/max of meshScalingDel4 = 1.00000 1.00000
+ 
+ Begin timestep 2010-10-23_00:00:00
+ --- time to update background surface albedo, greeness fraction.
+ --- time to run the LW radiation scheme L_RADLW =T
+ --- time to run the SW radiation scheme L_RADSW =T
+ --- time to run the convection scheme L_CONV    =T
+ --- time to update the ozone climatology for RRTMG radiation codes
+ --- time to apply limit to accumulated rainc and rainnc L_ACRAIN   =F
+ --- time to apply limit to accumulated radiation diags. L_ACRADT   =F
+ --- time to calculate additional physics_diagnostics               =F
+  split dynamics-transport integration 3
+ 
+ global min, max w -0.780069 0.885455
+ global min, max u -89.4142 88.8460
+  Timing for integration step: 47.1368 s
+ 
+ Begin timestep 2010-10-23_00:12:00
+ --- time to run the LW radiation scheme L_RADLW =F
+ --- time to run the SW radiation scheme L_RADSW =F
+ --- time to run the convection scheme L_CONV    =T
+ --- time to apply limit to accumulated rainc and rainnc L_ACRAIN   =F
+ --- time to apply limit to accumulated radiation diags. L_ACRADT   =F
+ --- time to calculate additional physics_diagnostics               =F
+  split dynamics-transport integration 3
+ 
+ global min, max w -0.812552 1.25899
+ global min, max u -89.0350 88.9621
+  Timing for integration step: 14.4285 s
+ 
+ ********************************************************
+    Finished running the atmosphere core
+ ********************************************************
+ 
+ 
+  Timer information:
+     Globals are computed across all threads and processors
+ 
+  Columns:
+     total time: Global max of accumulated time spent in timer
+     calls: Total number of times this timer was started / stopped.
+     min: Global min of time spent in a single start / stop
+     max: Global max of time spent in a single start / stop
+     avg: Global max of average time spent in a single start / stop
+     pct_tot: Percent of the timer at level 1
+     pct_par: Percent of the parent timer (one level up)
+     par_eff: Parallel efficiency, global average total time / global max total time
+ 
+ 
+    timer_name                                            total       calls        min            max            avg      pct_tot   pct_par     par_eff
+  1 total time                                          73.29746         1       73.29746       73.29746       73.29746   100.00       0.00       1.00
+  2  initialize                                         11.71806         1       11.71806       11.71806       11.71806    15.99      15.99       1.00
+  2  time integration                                   61.56533         2       14.42849       47.13684       30.78267    83.99      83.99       1.00
+  3   physics driver                                    37.98708         2        2.27783       35.70924       18.99354    51.83      61.70       1.00
+  4    calc_cldfraction                                  0.00379         1        0.00379        0.00379        0.00379     0.01       0.01       1.00
+  4    RRTMG_sw                                         20.13174         1       20.13174       20.13174       20.13174    27.47      53.00       1.00
+  4    RRTMG_lw                                         13.12961         1       13.12961       13.12961       13.12961    17.91      34.56       1.00
+  4    Monin-Obukhov                                     0.02415         2        0.01152        0.01263        0.01208     0.03       0.06       1.00
+  4    Noah                                              0.03603         2        0.01797        0.01806        0.01802     0.05       0.09       1.00
+  4    YSU                                               0.65800         2        0.32362        0.33439        0.32900     0.90       1.73       1.00
+  4    bl_ysu_gwdo                                       0.18529         2        0.09256        0.09273        0.09264     0.25       0.49       1.00
+  4    New_Tiedtke                                       2.10449         2        1.04874        1.05574        1.05224     2.87       5.54       1.00
+  3   atm_rk_integration_setup                           0.12405         2        0.06151        0.06254        0.06203     0.17       0.20       1.00
+  3   atm_compute_moist_coefficients                     0.10291         2        0.05080        0.05211        0.05146     0.14       0.17       1.00
+  3   physics_get_tend                                   0.14193         2        0.06886        0.07307        0.07096     0.19       0.23       1.00
+  3   atm_compute_vert_imp_coefs                         0.13151         6        0.02178        0.02220        0.02192     0.18       0.21       1.00
+  3   atm_compute_dyn_tend                               5.84861        18        0.27875        0.41639        0.32492     7.98       9.50       1.00
+  3   small_step_prep                                    0.39633        18        0.02176        0.02234        0.02202     0.54       0.64       1.00
+  3   atm_advance_acoustic_step                          1.13267        24        0.04451        0.05417        0.04719     1.55       1.84       1.00
+  3   atm_divergence_damping_3d                          0.34523        24        0.01399        0.01479        0.01438     0.47       0.56       1.00
+  3   atm_recover_large_step_variables                   0.78280        18        0.03536        0.05916        0.04349     1.07       1.27       1.00
+  3   atm_compute_solve_diagnostics                      1.31604        18        0.06285        0.09306        0.07311     1.80       2.14       1.00
+  3   atm_rk_dynamics_substep_finish                     0.21798         6        0.02433        0.04283        0.03633     0.30       0.35       1.00
+  3   atm_advance_scalars                                1.29664         4        0.29040        0.41772        0.32416     1.77       2.11       1.00
+  3   atm_advance_scalars_mono                           1.64055         2        0.68022        0.96032        0.82027     2.24       2.66       1.00
+  3   microphysics                                       9.94307         2        4.78716        5.15591        4.97154    13.57      16.15       1.00
+  4    WSM6                                              9.01724         2        4.32614        4.69110        4.50862    12.30      90.69       1.00
+ 
+ -----------------------------------------
+ Total log messages printed:
+    Output messages =                  296
+    Warning messages =                   3
+    Error messages =                     0
+    Critical error messages =            0
+ -----------------------------------------
+ Logging complete.  Closing file at 2024/11/30 13:54:24
