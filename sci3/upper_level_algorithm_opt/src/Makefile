@@ -61,7 +61,7 @@ matrix_cal_openblas: $/matrix_cal_openblas.cpp
 
 # 编译 matrix_cal_mpi_openmp.cpp
 matrix_cal_mpi_openmp: $/matrix_cal_mpi_openmp.cpp
-	$(MPICXX) $(MPIFLAGS) -o $@ $^ -fopenmp -O2
+	g++ -std=c++17 -I/root/upper_level_algorithm_opt/inc -o matrix_cal_openmp matrix_cal_openmp.cpp -lstdc++fs -fopenmp
 	./$@ >> $(LOG_DIR)/matrix_cal_mpi_openmp.log 2>&1
 
 # 清理编译生成的文件
